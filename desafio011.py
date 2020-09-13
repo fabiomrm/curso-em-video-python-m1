@@ -1,0 +1,7 @@
+print('INSIRA AS DIMENSÕES DA PAREDE')
+larg = float(input('Largura:'))
+alt = float(input('Altura: '))
+print('Área:',float(larg * alt),'m²')
+t = int(input('Consumo de tinta/m²:'))
+cons = float(t / larg * alt)
+print(f'ESTIMATIVA DE CONSUMO DE TINTA\nSerão utilizados {cons:.2f} litros de tinta')
